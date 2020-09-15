@@ -1,0 +1,25 @@
+public class HelloWorld{
+    
+     public static void main(String []args){
+        System.out.println("Hello World");
+        
+        int q = 19;
+        String y = "عزيز";
+        
+        license();
+     }
+
+    public static void license(){
+        int q = 19;
+        String y = "عزيز";
+    if (q >= 18){
+        System.out.println(" مبروك يا" + y  +  " سوف تحصل على رخصة قيادة");
+
+    }else{
+        System.out.println(" للأسف يا" +y  + " ما زلت ضعير للحصول على الرخصة");
+    }
+}
+}
+
+
+    
